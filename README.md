@@ -12,14 +12,14 @@ Venue gallery that consumes filterable (name and discount percentage) data from 
 2. `cd backend/`
 3. `composer install` (make sure you have composer installed and working)
 5. `cp .env.example .env`
-6. `cd /frontend`
+6. `cd frontend/`
 7. `yarn` (make sure you have yarn installed and working. I think npm install also will do)
 
 ## How to run
 1. To run the API:
 `cd backend/ && php -S localhost:8000 -t public`: API will be running on localhost:8000
 2. To run the Vue.js app:
-`cd /frontend/ && yarn serve`: Frontend will be running on localhost:8080
+`cd frontend/ && yarn serve`: Frontend will be running on localhost:8080
 3. Place venue data on the `backend/` folder in a file named `venues.csv` (do not leave more than one blank line at the end of the file)
 
 After all this, just open the Vue.js app on your browser and the gallery should display the venues. If the page is empty, please check the browser console for a `Cross-Origin Request Blocked` warning. To fix it, install an extension to your browser to bypass it. I use [Allow Cors](https://mybrowseraddon.com/access-control-allow-origin.html) and it works just fine.
