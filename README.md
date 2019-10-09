@@ -11,7 +11,7 @@ Venue gallery that consumes filterable (name and discount percentage) data from 
 1. `git clone https://github.com/jorgimello/venue-gallery.git`
 2. `cd backend/`
 3. `composer install` (make sure you have composer installed and working)
-5. `cp .env-example .env`
+5. `cp .env.example .env`
 6. `cd ../frontend`
 7. `yarn` (make sure you have yarn installed and working. I think npm install also will do)
 
