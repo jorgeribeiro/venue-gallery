@@ -1,5 +1,5 @@
 # Venue Gallery
-Venue gallery that consumes data from an API. It also features a CLI to generate json and xml files from the csv source.
+Venue gallery that consumes filterable data from an API. It also features a CLI to generate json and xml files from the csv source.
 
 ## Technologies
 - Lumen
@@ -13,7 +13,7 @@ Venue gallery that consumes data from an API. It also features a CLI to generate
 3. `composer install` (make sure you have composer installed and working)
 5. `cp .env-example .env`
 6. `cd ../frontend`
-7. `yarn` (make sure you have yarn installed and working)
+7. `yarn` (make sure you have yarn installed and working. I think npm install also will do)
 
 ## How to run
 1. To run the API:
