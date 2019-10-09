@@ -21,6 +21,11 @@ Venue gallery that consumes data from an API. It also features a CLI to generate
 `cd ../frontend/ && yarn serve`: Frontend will be running on localhost:8080
 3. Place venue data on the root folder in a file named `venues.csv` (do not leave more than one blank line on the end of the file)
 
+After all this, just open the Vue.js app on your browser and the gallery should display the venues. If the page is empty, please check the browser console for a `Cross-Origin Request Blocked` warning. To fix it, install an extension to your browse to bypass it. I use [Allow Cors](https://mybrowseraddon.com/access-control-allow-origin.html) and it works just fine.
+
+## How to use the CLI command
+Type `php generate-files -help` to understand how to use it and apply filters.
+
 ## Important scripts
 1. Backend
 - web.php
