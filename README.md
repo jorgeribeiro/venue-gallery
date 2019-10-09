@@ -24,7 +24,7 @@ Venue gallery that consumes filterable (name and discount percentage) data from 
 
 After all this, just open the Vue.js app on your browser and the gallery should display the venues. If the page is empty, please check the browser console for a `Cross-Origin Request Blocked` warning. To fix it, install an extension to your browser to bypass it. I use [Allow Cors](https://mybrowseraddon.com/access-control-allow-origin.html) and it works just fine.
 
-If the steps above worked, then the app should like like the following:
+If the steps above worked, then the app should look like the following:
 ![alt text](https://raw.githubusercontent.com/jorgimello/venue-gallery/master/images/example.png)
 
 ## How to use the CLI command
