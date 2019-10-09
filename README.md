@@ -48,3 +48,4 @@ Type `php generate-files -help` inside `backend/` to understand how to use it an
 - Display a carousel of images to display the venues images (did not have time to do it)
 - Write tests for the API and CLI command
 - Use random hotel images from Unsplash to improve the frontend images
+- Containerize both API and frontend to have it up easier and faster
