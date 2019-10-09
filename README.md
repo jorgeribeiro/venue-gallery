@@ -15,7 +15,17 @@ Venue gallery that consumes data from an API. It also features a CLI to generate
 5. `yarn` (make sure you have yarn installed and working)
 
 ## How to run
-To run the API:
+1. To run the API:
 `cd backend/ && php -S localhost:8000 -t public`: API will be running on localhost:8000
-To run the Vue.js app:
-`cd frontend/ && yarn serve`: Frontend will be running on localhost:8080
+2. To run the Vue.js app:
+`cd ../frontend/ && yarn serve`: Frontend will be running on localhost:8080
+3. Place venue data on the root folder in a file named `venues.csv` (do not leave more than one blank line on the end of the file)
+
+## Important scripts
+1. Backend
+- web.php
+
+## Improvements
+- Use SimpleXML to generate the XML file, because ArrayToXml does not prettify the content saved
+- Improve UI to a more elegant design
+- Display a carousel of images to display the venues images (did not have time to do it)
