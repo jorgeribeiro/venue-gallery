@@ -11,8 +11,9 @@ Venue gallery that consumes data from an API. It also features a CLI to generate
 1. `git clone https://github.com/jorgimello/venue-gallery.git`
 2. `cd backend/`
 3. `composer install` (make sure you have composer installed and working)
-4. `cd ../frontend`
-5. `yarn` (make sure you have yarn installed and working)
+5. `cp .env-example .env`
+6. `cd ../frontend`
+7. `yarn` (make sure you have yarn installed and working)
 
 ## How to run
 1. To run the API:
@@ -28,7 +29,11 @@ Type `php generate-files -help` to understand how to use it and apply filters.
 
 ## Important scripts
 1. Backend
-- web.php
+- [File.php](https://github.com/jorgimello/venue-gallery/blob/master/backend/app/File.php): Class to be extended by JsonFile and XmlFile
+- [JsonFile.php](https://github.com/jorgimello/venue-gallery/blob/master/backend/app/JsonFile.php)
+- [XmlFile.php](https://github.com/jorgimello/venue-gallery/blob/master/backend/app/XmlFile.php)
+- [web.php](https://github.com/jorgimello/venue-gallery/blob/master/backend/routes/web.php): API route
+- [ApiController.php](https://github.com/jorgimello/venue-gallery/blob/master/backend/app/Http/Controllers/ApiController.php): Controller for the API. Generates files and return requests'
 
 ## Improvements
 - Use SimpleXML to generate the XML file, because ArrayToXml does not prettify the content saved
