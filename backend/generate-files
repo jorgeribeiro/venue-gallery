@@ -1,0 +1,27 @@
+<?php
+
+if (($argc > 1 && $argc < 3) || ($argc > 1 && $argv[1] == '-help')) {
+	echo "Usage: php generate-files <name-filter> <discount-percentage-filter>\nUse - in a filter to skip it\nExamples: \nphp generate-files \nphp generate-files atlantis 15\nphp generate-files burj -\nphp generate-files - 10\n";
+	exit(1);
+}
+
+$app = require __DIR__.'/bootstrap/app.php';
+$apiController = $app->make('App\Http\Controllers\ApiController');
+
+$name = null;
+$discount = null;
+
+if ($argc == 3) {
+	if ($argv[1] != '-') {
+		$name = $argv[1];
+	}
+	if ($argv[2] != '-') {
+		$discount = $argv[2];
+	}
+}
+
+if ($apiController->generateFiles($name, $discount)) {
+	echo "Files generated successfully.\n";
+} else {
+	echo "A problem occurred during files generation.\n";
+}
