@@ -25,7 +25,7 @@ Venue gallery that consumes filterable data from an API. It also features a CLI 
 After all this, just open the Vue.js app on your browser and the gallery should display the venues. If the page is empty, please check the browser console for a `Cross-Origin Request Blocked` warning. To fix it, install an extension to your browse to bypass it. I use [Allow Cors](https://mybrowseraddon.com/access-control-allow-origin.html) and it works just fine.
 
 ## How to use the CLI command
-Type `php generate-files -help` to understand how to use it and apply filters.
+Type `php generate-files -help` inside `backend/` to understand how to use it and apply filters.
 
 ## Important scripts
 1. Backend
