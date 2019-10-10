@@ -36,10 +36,11 @@ Type `php generate-files -help` inside `backend/` to understand how to use it an
 - [XmlFile.php](https://github.com/jorgimello/venue-gallery/blob/master/backend/app/XmlFile.php)
 - [web.php](https://github.com/jorgimello/venue-gallery/blob/master/backend/routes/web.php): Defines API route
 - [ApiController.php](https://github.com/jorgimello/venue-gallery/blob/master/backend/app/Http/Controllers/ApiController.php): Controller for the API. Generates files and return requests
+- [generate-files](https://github.com/jorgimello/venue-gallery/blob/master/backend/generate-files): CLI Command
 
 2. Frontend
 - [Home.vue](https://github.com/jorgimello/venue-gallery/blob/master/frontend/src/views/Home.vue): Homepage of the app. Includes axios calls to the API
-- [ImageCard.vue](https://github.com/jorgimello/venue-gallery/blob/master/frontend/src/components/ImageCard.vue): Card component that displays the image, name and discount of a venue.
+- [ImageCard.vue](https://github.com/jorgimello/venue-gallery/blob/master/frontend/src/components/ImageCard.vue): Card component that displays the image, name and discount of a venue
 
 ## Improvements
 - Use SimpleXML to generate the XML file, because ArrayToXml does not prettify the xml content (all placed in one line)
