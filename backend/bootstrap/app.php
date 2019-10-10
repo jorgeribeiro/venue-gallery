@@ -25,6 +25,8 @@ $app->withFacades();
 
 $app->withEloquent();
 
+$app->configure('cors');
+
 /*
 |--------------------------------------------------------------------------
 | Register Container Bindings
@@ -65,6 +67,10 @@ $app->singleton(
 //     'auth' => App\Http\Middleware\Authenticate::class,
 // ]);
 
+$app->middleware([
+    \Barryvdh\Cors\HandleCors::class,
+]);
+
 /*
 |--------------------------------------------------------------------------
 | Register Service Providers
@@ -79,6 +85,7 @@ $app->singleton(
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
+$app->register(Barryvdh\Cors\ServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------

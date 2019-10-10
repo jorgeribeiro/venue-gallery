@@ -4,6 +4,7 @@ Venue gallery that consumes filterable (name and discount percentage) data from 
 ## Technologies
 - Lumen (API)
 - ArrayToXml
+- laravel-cors
 - Vue.js (Frontend)
 - axios
 
@@ -21,8 +22,6 @@ Venue gallery that consumes filterable (name and discount percentage) data from 
 2. To run the Vue.js app:
 `cd frontend/ && yarn serve`: Frontend will be running on localhost:8080
 3. Place venue data on the `backend/` folder in a file named `venues.csv` (do not leave more than one blank line at the end of the file)
-
-After all this, just open the Vue.js app on your browser and the gallery should display the venues. If the page is empty, please check the browser console for a `Cross-Origin Request Blocked` warning. To fix it, install an extension to your browser to bypass it. I use [Allow CORS](https://mybrowseraddon.com/access-control-allow-origin.html) and it works just fine.
 
 If the steps above worked, then the app should look like the following:
 ![alt text](https://raw.githubusercontent.com/jorgimello/venue-gallery/master/images/example.png)
