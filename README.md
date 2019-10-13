@@ -43,7 +43,6 @@ Type `php generate-files -help` inside `backend/` to understand how to use it an
 - [ImageCard.vue](https://github.com/jorgimello/venue-gallery/blob/master/frontend/src/components/ImageCard.vue): Card component that displays the image, name and discount of a venue
 
 ## Improvements
-- Use SimpleXML to generate the XML file, because ArrayToXml does not prettify the xml content (all placed in one line)
 - Improve UI to a more elegant design
 - Display a carousel of images to display the venues images (did not have time to do it)
 - Write tests for the API and CLI command

@@ -36,14 +36,13 @@ class ApiController extends Controller
     protected function applyFilters($data, $name = null, $discount = null) {
         if ($name || $discount) {
             if ($name) {
-                $filtered = $data->filter(function ($venue) use ($name) {
+                $data = $data->filter(function ($venue) use ($name) {
                     return stripos($venue['name'], $name) !== false;
-                });
+                });                
             }
             if ($discount) {
-                $filtered = $data->where('discount_percentage', $discount);
+                $data = $data->where('discount_percentage', '>=', $discount);
             }
-            return $filtered;
         }
         return $data;     
     }

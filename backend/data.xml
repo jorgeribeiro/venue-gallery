@@ -1,2 +1,87 @@
 <?xml version="1.0"?>
-<root><numeric_0><id>1</id><name>Atlantis The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>25</discount_percentage></numeric_0><numeric_1><id>2</id><name>Burj Khalifa</name><image>https://via.placeholder.com/250x250</image><discount_percentage>10</discount_percentage></numeric_1><numeric_2><id>3</id><name>Heinz Beck</name><image>https://via.placeholder.com/250x250</image><discount_percentage>0</discount_percentage></numeric_2><numeric_3><id>4</id><name>Saadiyat</name><image>https://via.placeholder.com/250x250</image><discount_percentage>30</discount_percentage></numeric_3><numeric_4><id>5</id><name>The Ritz Carlton</name><image>https://via.placeholder.com/250x250</image><discount_percentage>10</discount_percentage></numeric_4><numeric_5><id>6</id><name>Fairmont The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>5</discount_percentage></numeric_5><numeric_6><id>7</id><name>Hilton Dubai</name><image>https://via.placeholder.com/250x250</image><discount_percentage>7</discount_percentage></numeric_6><numeric_7><id>8</id><name>Atlantis The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>15</discount_percentage></numeric_7><numeric_8><id>9</id><name>Atlantis The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>30</discount_percentage></numeric_8><numeric_9><id>10</id><name>Atlantis The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>35</discount_percentage></numeric_9><numeric_10><id>11</id><name>Atlantis The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>50</discount_percentage></numeric_10><numeric_11><id>12</id><name>Atlantis The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>10</discount_percentage></numeric_11><numeric_12><id>13</id><name>Atlantis The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>5</discount_percentage></numeric_12><numeric_13><id>14</id><name>Atlantis The Palm</name><image>https://via.placeholder.com/250x250</image><discount_percentage>15</discount_percentage></numeric_13></root>
+<venues>
+  <venue>
+    <id>1</id>
+    <name>Atlantis The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>25</discount_percentage>
+  </venue>
+  <venue>
+    <id>2</id>
+    <name>Burj Khalifa</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>10</discount_percentage>
+  </venue>
+  <venue>
+    <id>3</id>
+    <name>Heinz Beck</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>10</discount_percentage>
+  </venue>
+  <venue>
+    <id>4</id>
+    <name>Saadiyat</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>30</discount_percentage>
+  </venue>
+  <venue>
+    <id>5</id>
+    <name>The Ritz Carlton</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>10</discount_percentage>
+  </venue>
+  <venue>
+    <id>6</id>
+    <name>Fairmont The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>5</discount_percentage>
+  </venue>
+  <venue>
+    <id>7</id>
+    <name>Hilton Dubai</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>7</discount_percentage>
+  </venue>
+  <venue>
+    <id>8</id>
+    <name>Atlantis The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>15</discount_percentage>
+  </venue>
+  <venue>
+    <id>9</id>
+    <name>Atlantis The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>30</discount_percentage>
+  </venue>
+  <venue>
+    <id>10</id>
+    <name>Atlantis The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>35</discount_percentage>
+  </venue>
+  <venue>
+    <id>11</id>
+    <name>Atlantis The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>50</discount_percentage>
+  </venue>
+  <venue>
+    <id>12</id>
+    <name>Atlantis The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>10</discount_percentage>
+  </venue>
+  <venue>
+    <id>13</id>
+    <name>Atlantis The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>5</discount_percentage>
+  </venue>
+  <venue>
+    <id>14</id>
+    <name>Atlantis The Palm</name>
+    <image>https://via.placeholder.com/250x250</image>
+    <discount_percentage>15</discount_percentage>
+  </venue>
+</venues>
