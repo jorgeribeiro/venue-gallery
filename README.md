@@ -2,8 +2,7 @@
 Venue gallery that consumes filterable (name and discount percentage) data from an API. It also features a CLI to generate json and xml (data can be filtered on both file types) files from the csv source.
 
 ## Technologies
-- Lumen (API)
-- ArrayToXml
+- Lumen (Backend)
 - laravel-cors
 - Vue.js (Frontend)
 - axios
